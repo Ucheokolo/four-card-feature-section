@@ -1,0 +1,106 @@
+body {
+  text-align: center;
+  background-color: hsl(0, 0%, 98%);
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+  color: hsl(229, 6%, 66%);
+}
+
+.image-div {
+  text-align: right;
+}
+
+.heading-light {
+  font-weight: 200;
+  color: hsl(229, 6%, 66%);
+}
+
+.heading-dark {
+  font-weight: 600;
+  color: hsl(234, 12%, 34%);
+}
+
+.p-heading {
+  padding: 2% 0 3% 0;
+  width: 45%;
+  margin: auto;
+}
+
+.container-fluid {
+  padding: 2% 15%;
+}
+
+.container {
+  padding: 0;
+}
+
+.card {
+  border-style: solid none none;
+  border-width: thick;
+  text-align: left;
+  margin: 5%;
+}
+
+.card-body {
+  padding: 8% 5% 5%;
+}
+
+.card-title {
+  color: hsl(234, 12%, 34%);
+  padding: 2%;
+  font-weight: 600;
+}
+
+.card-text {
+  padding: 2% 2% 4% 2%;
+}
+
+.supervisor {
+  border-color: hsl(180, 62%, 55%);
+  position: relative;
+  top: 50%;
+}
+
+.team {
+  border-color: hsl(0, 78%, 62%);
+}
+
+.calculator {
+  border-color: hsl(212, 86%, 64%);
+  position: relative;
+  top: 50%;
+}
+
+.karma {
+  border-color: hsl(34, 97%, 64%);
+  position: relative;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 991px) {
+  .p-heading {
+    width: 80%;
+  }
+
+  .supervisor {
+    position: static;
+  }
+
+  .karma {
+    position: static;
+  }
+
+  .calculator {
+    position: static;
+  }
+}
